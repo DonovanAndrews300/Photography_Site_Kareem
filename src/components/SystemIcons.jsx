@@ -9,6 +9,7 @@ import {
   faGlobe,
 } from "@fortawesome/free-solid-svg-icons";
 import {
+  faInstagram,
   faTwitter,
   faFacebookF,
   faLinkedinIn,
@@ -24,7 +25,7 @@ export const GithubIcon = makeFAIcon(faGithubAlt);
 export const MediumIcon = makeFAIcon(faMediumM);
 export const CloseIcon = makeFAIcon(faTimes);
 export const LanguageIcon = makeFAIcon(faGlobe);
-
+export const InstagramIcon = makeFAIcon(faInstagram);
 export const TwitterIcon = makeFAIcon(faTwitter);
 export const FacebookIcon = makeFAIcon(faFacebookF);
 export const LinkedinIcon = makeFAIcon(faLinkedinIn);

@@ -65,6 +65,7 @@ export const query = graphql`
           social {
             facebook
             github
+            instagram
             linkedin
             medium
             twitter
@@ -123,11 +124,7 @@ const IndexPage = ({ data, pathContext: { langKey, defaultLang, langTextMap } })
   return (
     <>
       <SEO lang={langKey} title="Top" keywords={keywords} description={description} />
-      <Navbar
-        anchors={anchors}
-        frontmatter={navBarNode.frontmatter}
-        extraItems={langSelectorPart}
-      />
+      <Navbar anchors={anchors} frontmatter={navBarNode.frontmatter} />
       <Top frontmatter={topNode.frontmatter} />
       {
         // dynamically import sections

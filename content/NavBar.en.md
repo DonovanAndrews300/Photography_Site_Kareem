@@ -1,4 +1,4 @@
 ---
 brand: "Belgrave Studios"
-menuText: "Menu "
+menuText: "Menu"
 ---

@@ -2,7 +2,7 @@
 copyright: null
 social: {
   twitter: "#",
-  facebook: "#",
+  facebook: null,
   instagram: "#",
   medium: null
 }
