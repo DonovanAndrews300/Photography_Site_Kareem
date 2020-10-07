@@ -22,6 +22,7 @@ teamMember: [
       twitter: "#",
       facebook: "#",
       medium: "#"
+      
     }
   },
   {
