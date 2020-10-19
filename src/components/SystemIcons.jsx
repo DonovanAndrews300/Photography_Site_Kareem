@@ -5,6 +5,7 @@ import {
   faEnvelope,
   faPlus,
   faBars,
+  faLock,
   faTimes,
   faGlobe,
 } from "@fortawesome/free-solid-svg-icons";
@@ -16,7 +17,7 @@ import {
   faGithubAlt,
   faMediumM,
 } from "@fortawesome/free-brands-svg-icons";
-
+export const LockIcon = makeFAIcon(faLock);
 export const PhoneIcon = makeFAIcon(faPhone);
 export const EnvelopIcon = makeFAIcon(faEnvelope);
 export const PlusIcon = makeFAIcon(faPlus);
