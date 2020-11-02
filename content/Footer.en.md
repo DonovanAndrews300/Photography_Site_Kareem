@@ -1,9 +1,9 @@
 ---
 copyright: null
 social: {
-  twitter: "#",
+  twitter: "ImaLevelAboveYu",
   facebook: null,
-  instagram: "#",
+  instagram: "imalevelaboveyu",
   medium: null
 }
 privacyText: null

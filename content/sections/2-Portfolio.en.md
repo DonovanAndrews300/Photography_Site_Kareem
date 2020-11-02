@@ -1,7 +1,7 @@
 ---
 anchor: "Portfolio"
 header: "Portfolio"
-subheader: "Lorem ipsum dolor sit amet consectetur."
+subheader: null
 portfolios: [
   {
     imageFileName: "MondellaCottageThumbnail.jpg",
@@ -10,7 +10,7 @@ portfolios: [
     isPhoto: true,
     subheader: "Architectural",
     content: https://www.upwork.com/freelancers/~0169a76c4a605b006c?p=1277654199240925184,
-    extraInfo: ["Date: January 2018",  "Category: Architectural"]
+    extraInfo: ["Year:2018",  "Category: Architectural"]
   },
   {
     imageFileName: "6feetthumbnail.jpg",
@@ -19,7 +19,7 @@ portfolios: [
     isPhoto: true,
     subheader: "Hip-hop",
     content: https://www.upwork.com/freelancers/~0169a76c4a605b006c?p=1277662345847889920,
-    extraInfo: ["Date: January 2018",  "Category: Hip-hop, Music, Street"]
+    extraInfo: ["Year:2019",  "Category: Hip-hop, Music, Street"]
   },
   {
     imageFileName: "danswalkthumbnail.jpg",
@@ -28,31 +28,31 @@ portfolios: [
     isPhoto: true,
     subheader: "Street",
     content: https://www.upwork.com/freelancers/~0169a76c4a605b006c?p=1277643756495429632,
-    extraInfo: ["Date: January 2018",  "Category: Street,Fashion "]
+    extraInfo: ["Year:2018","Category : Street-Fashion "]
   },
   {
-    imageFileName: "portfolio/02-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/02-full.jpg",
-    header: "Explorer",
-    subheader: "Graphic Design",
-    content: "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
-    extraInfo: ["Date: January 2017", "Client: Explorer", "Category: Graphic Design"]
+    imageFileName: "cjthumbnail.jpg",
+    imageFileNameDetail: "cj.jpg",
+    header: "Investment",
+    subheader: "Cj da Prodigy",
+    content: "https://www.youtube.com/watch?v=V6U9oOTOcQc&list=PLSFHysyXT6Nse5uBSfXechIadeSdEXajI&index=10&ab_channel=CJDaProdigy",
+    extraInfo: ["Year:2020", "Client: CJ", "Category: Audio Video"]
   },
   {
-    imageFileName: "portfolio/03-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/03-full.jpg",
-    header: "Finish",
-    subheader: "Identity",
-    content: "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
-    extraInfo: ["Date: January 2017", "Client: Finish", "Category: Identity"]
+    imageFileName: "ripdillathumbnail.jpg",
+    imageFileNameDetail: "ripdilla.jpg",
+    header: "RIP J Dilla",
+    subheader: "Gerald Hunley",
+    content: "https://www.youtube.com/watch?v=4QWOgF8B8WA&list=PLSFHysyXT6Nse5uBSfXechIadeSdEXajI&index=3&ab_channel=PHILANAMRecords",
+    extraInfo: ["Year:2020", "Client: Gerald Hunley", "Category: Music Video"]
   },
   {
-    imageFileName: "portfolio/05-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/05-full.jpg",
-    header: "Southwest",
-    subheader: "Website Design",
-    content: "https://gogoanime.so/",
-    extraInfo: ["Date: January 2017", "Client: Southwest", "Category: Website Design"]
+    imageFileName: "youngsheedthumbnail.jpg",
+    imageFileNameDetail: "youngsheed.jpg",
+    header: "Broken",
+    subheader: "Young Sheed",
+    content: "https://www.youtube.com/watch?v=OeBUFgIVHK4&list=PLSFHysyXT6Nse5uBSfXechIadeSdEXajI&index=2&ab_channel=The02Collection",
+    extraInfo: ["Year:2020 ", "Client: Young Sheed", "Category: Music Video"]
   },
 ]
 ---
