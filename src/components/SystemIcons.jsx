@@ -16,7 +16,10 @@ import {
   faLinkedinIn,
   faGithubAlt,
   faMediumM,
-} from "@fortawesome/free-brands-svg-icons";
+} 
+
+from "@fortawesome/free-brands-svg-icons";
+
 export const LockIcon = makeFAIcon(faLock);
 export const PhoneIcon = makeFAIcon(faPhone);
 export const EnvelopIcon = makeFAIcon(faEnvelope);

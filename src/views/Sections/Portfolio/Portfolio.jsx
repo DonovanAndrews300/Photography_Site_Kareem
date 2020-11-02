@@ -20,9 +20,36 @@ const Portfolio = ({ className, frontmatter }) => {
       <Row>
         <SectionHeader header={rootHeader} subheader={rootSubHeader} />
       </Row>
+    <h2 style={{"textDecoration":"underline"}}>Photos</h2>
       <Row>
-        {portfolios.map(
+        
+        {portfolios.filter(({isPhoto}) => isPhoto).map(
           ({ content, extraInfo, header, imageFileName, imageFileNameDetail, subheader }) => (
+          
+            <PortfolioItem
+              key={header}
+              imageFileName={imageFileName}
+              header={header}
+              subheader={subheader}
+              content={content}
+              imageFileNameDetail={imageFileNameDetail}
+              extraInfo={
+                <ul>
+                  {extraInfo.map((ei) => (
+                    <li key={ei}>{ei}</li>
+                  ))}
+                </ul>
+              }
+            />
+          ),
+        )}
+      </Row>
+      <h2 style={{"textDecoration":"underline"}}>Videos</h2>
+      <Row>
+        
+        {portfolios.filter(({isPhoto}) => !isPhoto).map(
+          ({ content, extraInfo, header, imageFileName, imageFileNameDetail, subheader }) => (
+          
             <PortfolioItem
               key={header}
               imageFileName={imageFileName}

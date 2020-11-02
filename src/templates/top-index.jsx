@@ -50,6 +50,7 @@ export const query = graphql`
             content
             extraInfo
             header
+            isPhoto
             subheader
             imageFileNameDetail
             imageFileName
