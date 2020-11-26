@@ -10,6 +10,7 @@ const PortfolioDetailDialog = ({
   imageFileName,
   imageAlt,
   header,
+  isPhoto,
   subheader,
   content,
   extraInfo,
@@ -33,7 +34,7 @@ const PortfolioDetailDialog = ({
           fileName={imageFileName}
           alt={imageAlt || header || subheader}
         />
-        <a href={content}>{content}</a>
+        <a href={content}>{isPhoto ? "Photo Link" : "Video Link"}</a>
         {extraInfo}
       </Modal.Body>
       <Modal.Footer>
@@ -50,6 +51,7 @@ const PortfolioDetailDialog = ({
 
 PortfolioDetailDialog.propTypes = {
   onHide: PropTypes.func,
+  isPhoto: PropTypes.any,
   imageFileName: PropTypes.string,
   imageAlt: PropTypes.string,
   header: PropTypes.string,
@@ -60,6 +62,7 @@ PortfolioDetailDialog.propTypes = {
 
 PortfolioDetailDialog.defaultProps = {
   onHide: null,
+  isPhoto:null,
   imageFileName: "",
   imageAlt: null,
   header: "",
