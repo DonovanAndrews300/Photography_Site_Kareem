@@ -10,8 +10,8 @@ module.exports = {
     "bootstrap",
     "startbootstrap-agency",
   ],
-  description: "Belgrave Photography",
-  author: "thundermiracle",
+  description: "Kareem Belgrave is a multimedia specialist based in Philadelphia,PA",
+  author: "Kareem Belgrave",
   trackingId: "UA-119418003-5",
   defaultLang: "en",
   langTextMap: {
