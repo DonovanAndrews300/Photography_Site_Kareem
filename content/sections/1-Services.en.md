@@ -16,7 +16,7 @@ services: [
   {
     iconName: "MusicIcon",
     header: "Music Production",
-    content: "With production i offer not only high quality recording but all editing and HD mastering. I've produced for many of Philadelphia and Ny's emerging new artists."
+    content: "With production i offer not only high quality recording but all editing and HD mastering. I've produced for many of Philadelphia and NY's emerging new artists."
   }
 ]
 ---
